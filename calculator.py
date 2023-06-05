@@ -7,6 +7,7 @@ def calculateAnswer():
             print(eval(notation)) 
         except:
             print("invalid notation")
-        calculateAnswer()
+        finally:
+            calculateAnswer()
     
 calculateAnswer()
